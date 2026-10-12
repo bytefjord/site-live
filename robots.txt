@@ -1,4 +1,18 @@
 User-agent: *
 Allow: /
 
+# AI асистенти — явно разрешение (ChatGPT/Claude/Perplexity/Gemini да четат сайта)
+User-agent: GPTBot
+Allow: /
+User-agent: OAI-SearchBot
+Allow: /
+User-agent: ChatGPT-User
+Allow: /
+User-agent: ClaudeBot
+Allow: /
+User-agent: PerplexityBot
+Allow: /
+User-agent: Google-Extended
+Allow: /
+
 Sitemap: https://servicefrontdesk.com/sitemap-index.xml
